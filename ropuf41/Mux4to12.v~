@@ -1,0 +1,16 @@
+module Mux4to12( Y5,Y6,Y7,Y8,COUT2,SEL
+    );
+input Y5,Y6,Y7,Y8;
+input [1:0]SEL;
+output reg COUT2;
+
+always@(Y5 or Y6 or Y7 or Y8 or SEL)
+begin
+	case(SEL)
+		2'b00 : COUT2<=Y5;
+		2'b01 : COUT2<=Y6;
+		2'b10 : COUT2<=Y7;
+		default: COUT2<=Y8;
+	endcase
+end
+endmodule

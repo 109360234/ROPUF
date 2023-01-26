@@ -1,0 +1,35 @@
+s1(31Oct2022:23:07:39):  ncverilog Campare.v 
+s2(31Oct2022:23:08:21):  ncverilog Counter12.v 
+s3(31Oct2022:23:10:22):  ncverilog Mux4to1.v 
+s4(31Oct2022:23:10:44):  ncverilog Mux4to12.v 
+s5(31Oct2022:23:12:43):  ncverilog R1.v 
+s6(31Oct2022:23:12:59):  ncverilog R2.v 
+s7(31Oct2022:23:13:18):  ncverilog R3.v 
+s8(31Oct2022:23:13:33):  ncverilog R4.v 
+s9(31Oct2022:23:13:49):  ncverilog R5.v 
+s10(31Oct2022:23:14:09):  ncverilog R6.v 
+s11(31Oct2022:23:14:25):  ncverilog R7.v 
+s12(31Oct2022:23:17:48):  ncverilog R8.v 
+s13(31Oct2022:23:18:26):  ncverilog Top.v 
+s14(31Oct2022:23:18:35):  ncverilog R7.v 
+s15(31Oct2022:23:18:50):  ncverilog Top.v 
+s16(31Oct2022:23:20:41):  ncverilog R7.v 
+s17(31Oct2022:23:21:32):  ncverilog Top.v 
+s18(31Oct2022:23:25:44):  ncverilog Top.v 
+s19(31Oct2022:23:25:51):  ncverilog R1.v 
+s20(31Oct2022:23:26:55):  ncverilog R2.v 
+s21(31Oct2022:23:27:10):  ncverilog R3.v 
+s22(31Oct2022:23:37:25):  ncverilog Top.v 
+s23(31Oct2022:23:37:42):  ncverilog R4.v 
+s24(31Oct2022:23:37:48):  ncverilog R5.v 
+s25(31Oct2022:23:37:52):  ncverilog R6.v 
+s26(31Oct2022:23:37:56):  ncverilog R7.v 
+s27(31Oct2022:23:38:02):  ncverilog R8.v 
+s28(31Oct2022:23:38:07):  ncverilog Top.v 
+s29(31Oct2022:23:39:21):  ncverilog Mux4to12.v 
+s30(31Oct2022:23:39:24):  ncverilog Top.v 
+s31(31Oct2022:23:41:54):  ncverilog Ropuf_test.v Top.v +access+r 
+s32(31Oct2022:23:47:55):  ncverilog Ropuf_test.v Top.v +access+r 
+s33(01Nov2022:00:15:06):  ncverilog Ropuf_test.v Top.v +access+r 
+s34(01Nov2022:00:41:32):  ncverilog Campare.v 
+s35(01Nov2022:00:42:08):  ncverilog Top.v 

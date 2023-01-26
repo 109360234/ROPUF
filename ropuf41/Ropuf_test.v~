@@ -1,0 +1,75 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   13:55:54 10/22/2022
+// Design Name:   Top
+// Module Name:   D:/ro puf/Mux4to1/Mux4to1/Ropuf_test.v
+// Project Name:  Mux4to1
+// Target Device:  
+// Tool versions:  
+// Description: 
+//
+// Verilog Test Fixture created by ISE for module: Top
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module Ropuf_test;
+
+	// Inputs
+	reg EN;
+	reg [1:0] SEL;
+	reg RESET;
+
+	// Outputs
+	wire [3:0] OUT;
+	wire [3:0] COUNT1;
+	wire [3:0] COUNT2;
+	wire COUT1;
+	wire COUT2;
+
+	// Instantiate the Unit Under Test (UUT)
+	Top uut (
+		.EN(EN), 
+		.SEL(SEL), 
+		.RESET(RESET), 
+		.OUT(OUT), 
+		.COUNT1(COUNT1), 
+		.COUNT2(COUNT2), 
+		.COUT1(COUT1), 
+		.COUT2(COUT2)
+	);
+
+	initial begin
+		// Initialize Inputs
+		EN = 0;
+		SEL = 0;
+		RESET = 1;
+		#50;
+		EN=1;
+		RESET=0;
+		// Wait 100 ns for global reset to finish
+#6000
+		$finish;
+	end
+    always #50 SEL=SEL+1;
+
+	initial
+	begin
+	$fsdbDumpfile("top.fsdb"); // The FSDB Database
+      $fsdbDumpvars;
+
+	end
+
+
+endmodule
+
+

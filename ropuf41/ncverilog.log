@@ -1,0 +1,28 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Nov 01, 2022 at 00:42:08 CST
+ncverilog
+	Top.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.Campare:v <0x2072802d>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                13      13
+		Primitives:             40       2
+		Registers:               5       5
+		Always blocks:           5       5
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.Top:v
+Loading snapshot worklib.Top:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Nov 01, 2022 at 00:42:19 CST  (total: 00:00:11)
